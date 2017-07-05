@@ -195,10 +195,10 @@ const MyComponent = () => {
 ```
 
 **Customize Theme** <br>
-You can overwrite theme variables within the provided [antd.theme.config](/client/styles/antd.theme.config.js).
+You can overwrite theme variables within the provided [antd.theme.config](/client/src/styles/antd.theme.config.js).
 
  ```javascript
- # ./client/styles/antd.theme.config.js
+ # ./client/src/styles/antd.theme.config.js
  
  export default {
    // Colors
