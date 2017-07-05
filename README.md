@@ -195,7 +195,7 @@ const MyComponent = () => {
 ```
 
 **Customize Theme** <br>
-You can overwrite theme variables within the provided [antd.theme.config](/client/styles/antd.theme.config).
+You can overwrite theme variables within the provided [antd.theme.config](/client/styles/antd.theme.config.js).
 
  ```javascript
  # ./client/styles/antd.theme.config.js
