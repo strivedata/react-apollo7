@@ -24,8 +24,8 @@
 
 <br><a name="motivation"></a>Why apollo7?
 ------
-We wanted a boilerplate that enables us to create apps really fast. Often we explore new Ideas with **Hackathons or Google Design Sprints** but it's been a hassle to create high-fidelity prototypes and turn them into production ready apps along the road.
-Cory House's [React Slingshot](https://github.com/coryhouse/react-slingshot/) already offers a great starting point but in addition to that we wanted some other stuff as well:
+Often we explore new ideas with **Hackathons or Google Design Sprints** but it's been a hassle to create high-fidelity prototypes and turn them into production ready apps along the road.
+Cory House's [React Slingshot](https://github.com/coryhouse/react-slingshot/) already offers a great starting point but in addition to that we wanted some other stuff as well to launch stuff fast:
  
 * [Ant Design Components](https://ant.design/docs/react/introduce) 
 * [React Styled Components](https://www.styled-components.com/) with [stylelint](https://stylelint.io/) support
