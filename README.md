@@ -52,7 +52,7 @@ Create a [Heroku](https://www.heroku.com) account and install the [heroku-cli](h
 ------
 Click the button below to automatically deploy React apollo7 on your Heroku account.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strivedata/react-apollo7)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
 <br><a name="live_demo"></a>Live Demo
