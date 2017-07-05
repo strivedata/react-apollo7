@@ -1,0 +1,44 @@
+{
+  "presets": [
+    "react",
+    "stage-1"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "env",
+        "react-hmre"
+      ],
+      "plugins": [
+        [
+          "transform-class-properties",
+          "transform-object-rest-spread",
+          "styled-components",
+          "import", { "libraryName": "antd", "style": "true" }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "es2015": {
+              "modules": false
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        "transform-class-properties",
+        "transform-react-constant-elements",
+        "transform-react-remove-prop-types"
+      ]
+    },
+    "test": {
+      "presets": [
+        "env"
+      ]
+    }
+  }
+}

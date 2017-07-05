@@ -1,0 +1,61 @@
+
+.login-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(131, 127, 126, 0.2);
+  }
+
+  .login-content {
+    padding-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: none;
+    background: #fff;
+    z-index: 1;
+    min-width: 330px;
+
+    h2 {
+      margin-bottom: 20px;
+      padding: 30px 100px 10px;
+      border-radius: 5px 5px 0 0;
+      background: #fff;
+      text-align: center;
+    }
+
+    .login-form {
+      max-width: 340px;
+    }
+
+    .login-form-forgot {
+      float: right;
+    }
+
+    .login-form-button {
+      width: 100%;
+    }
+  }
+
+  .ant-form-item-label {
+    text-align: left;
+  }
+
+  .ant-form-item {
+    padding: 0 60px;
+  }
+
+  .ant-form-item > label::after {
+    content: "";
+  }
+}

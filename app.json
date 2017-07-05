@@ -1,0 +1,27 @@
+{
+  "name": "React apollo7",
+  "description": "React apollo7 is a starter kit utilizing React, Redux and Ant Design.",
+  "logo": "http://strive.agency/public/react-apollo7-logo.png",
+  "repository": "https://github.com/strivedata/react-apollo7",
+  "keywords": [
+    "react",
+    "redux",
+    "antd",
+    "api-blueprint",
+    "starter-kit"
+  ],
+  "env": {
+    "API_BASE_URL": "http://private-b5715-reactapollo7.apiary-mock.com/"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

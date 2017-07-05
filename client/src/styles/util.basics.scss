@@ -1,0 +1,39 @@
+
+/* Basic stuff */
+
+.pointer { cursor: pointer; }
+.no-shadow { box-shadow: none !important; }
+.hide { display: none !important; }
+.show { display: block !important; }
+.none { display: none; }
+.no-float { float: none; }
+.center { text-align: center; }
+
+.rounded,
+.circle { border-radius: 50%; }
+
+/* Colors */
+.bg-body { background: #fff; }
+.bg-white { background: #fff; }
+.bg-app-layout { background: #5b6b83; }
+.bg-public-layout { background: #5b6b83; }
+.bg-error-layout { background: #5b6b83; }
+
+.color-headline,
+.color-title,
+.color-section { color: #f4da6e; }
+.color-text { color: #596981; }
+.color-nav-menu { color: #596981; }
+.color-error { color: #f91628; }
+
+/* Fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-headlines;
+  font-weight: normal;
+}
+p { font-family: $font-family-text; }

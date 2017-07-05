@@ -1,0 +1,102 @@
+#app {
+  .apollo7-logo {
+    width: 6rem;
+    height: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 1.05rem;
+    -webkit-transform: translate3d(0, 0, 0);
+
+    @include mq($until: desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+  .apollo7-logo--login {
+    width: 8.6rem;
+    padding: 1.8rem 2rem;
+    height: 3rem;
+    background-size: 8.5rem;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 0.05rem;
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  .strive-logo--fallback {
+    width: 6rem;
+    float: left;
+    margin-top: 1.05rem;
+
+    @include mq($until: desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+  .strive-logo--fallback--login {
+    width: 8rem;
+    float: left;
+    margin-top: 1.05rem;
+    margin-bottom: 1rem;
+
+    @include mq($until: desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+  .lifecycle-arrow {
+    background-size: 1.3rem;
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 9%;
+    margin-right: -1.5rem;
+    margin-top: -6rem;
+    float: right;
+    display: none;
+  }
+
+  .anticon {
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: none;
+    line-height: 1;
+  }
+
+  .nav-phone-icon {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1.4rem;
+    z-index: 1;
+    width: 1rem;
+    height: 1.4rem;
+    cursor: pointer;
+
+    @include mq($from: desktop) {
+      display: none !important;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      border-radius: 0.1rem;
+      width: 1rem;
+      height: 0.1rem;
+      background: #8498b1;
+      box-shadow: 0 6px 0 0 #6d89a4, 0 12px 0 0 #5c5487;
+      position: absolute;
+    }
+  }
+}
