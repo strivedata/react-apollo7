@@ -160,7 +160,30 @@
     "webpack-hot-middleware": "2.17.1",
     "webpack-md5-hash": "0.0.5"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-router",
+    "redux-axios-middleware",
+    "react-api-middleware",
+    "react-auth-wrapper",
+    "drakov",
+    "api",
+    "blueprint",
+    "mock",
+    "antd",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack",
+    "redux",
+    "flux",
+    "boilerplate",
+    "starter",
+    "styled-components"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/strivedata/react-apollo7"
