@@ -389,6 +389,6 @@ This repo is a heavily customized version Cory House'S awesome [Slingshot - Reac
 <br>Check out [Cory House's Pluralsight Courses](https://www.pluralsight.com/authors/cory-house) for some amazing resources related to JS, React and coding in general.
 <div>The apollo7 Logo Icon was made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
-## License 
-MIT &copy; [Cory House / Adam Kassama](/LICENSE)
+## License
+MIT &copy; Cory House / Adam Kassama
 
