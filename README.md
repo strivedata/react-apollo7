@@ -143,8 +143,8 @@ export default {
 <br><a name="api_mock"></a>API Mock Server
 ------
 [Drakov ](https://github.com/Aconex/drakov) server to mock your data serving [api blueprints](https://apiblueprint.org/). 
-This app's api blueprint file [client.api.md](/api-mock/client.api.md) is located in the [api-mock](/api-mock) folder and is served local via Drakov. 
-For Heroku the online version is hosted at [http://docs.reactapollo7.apiary.io](http://docs.reactapollo7.apiary.io/).
+This app's api blueprint file [client.api.md](/api-mock/blueprints/client.api.md) is located in the [api-mock](/api-mock) folder and is served local via Drakov. 
+For Heroku there is an apiary version [http://docs.reactapollo7.apiary.io](http://docs.reactapollo7.apiary.io/).
 
 
  ```bash
@@ -263,7 +263,7 @@ require('redux-Axios-middleware');
 
 <br><a name="structure"></a>Structure
 ------
-Since React apollo7 uses [React apollo7]() which is a heavily customized version of the [React Slingshot](https://github.com/coryhouse/react-slingshot) starter kit you have similar file structure with a few additional files and folders. 
+Since React apollo7 is a heavily customized version of the [React Slingshot](https://github.com/coryhouse/react-slingshot) starter kit you have similar file structure with a few additional files and folders. 
 We like to handle most of the configuration for linting and stuff in separate config files instead of putting all it into the package.json manifest. 
 ```yaml
 .
