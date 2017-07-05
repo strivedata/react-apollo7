@@ -57,7 +57,7 @@ Click the button below to automatically deploy React apollo7 on your Heroku acco
 
 <br><a name="live_demo"></a>Live Demo
 ------
-The starter kit includes a working example app that puts all additions above to use.
+The starter kit includes a working example app that puts all additions above to use.<br>
 Take a look at [react-apollo7.herokuapp.com](http://react-apollo7.herokuapp.com/) to see the example app in action.
 
 
