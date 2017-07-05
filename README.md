@@ -24,7 +24,7 @@
 
 <br><a name="motivation"></a>Why apollo7?
 ------
-We wanted a boilerplate that enables us to create apps really fast. Often we explore new Ideas with Hackathons or Google Design Sprints but it has been a hassle to create high-fidelity prototypes and turn them into production ready apps along the road.
+We wanted a boilerplate that enables us to create apps really fast. Often we explore new Ideas with **Hackathons or Google Design Sprints** but it's been a hassle to create high-fidelity prototypes and turn them into production ready apps along the road.
 Cory House's [React Slingshot](https://github.com/coryhouse/react-slingshot/) already offers a great starting point but in addition to that we wanted some other stuff as well:
  
 * [Ant Design Components](https://ant.design/docs/react/introduce) 
@@ -230,7 +230,7 @@ You can overwrite theme variables within the provided [antd.theme.config](/clien
 
 <br><a name="sass_styles"></a>Sass Styles
 ------
-Fo Ant Design Components you can style our app via Sass and utilize the [BEM Methodology](http://getbem.com/introduction/).
+For Ant Design Components you can style our app via Sass and utilize the [BEM Methodology](http://getbem.com/introduction/).
 
 
 <br><a name="styled_components"></a>Styled Components
